@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c42edf8d-a579-4039-a8b6-3c779d3c5139" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="$PROJECT_DIR$/../../go1.15rc2" />
+  <component name="ProjectId" id="1fpssvzR5QNjFm6pIY47mJvwaUY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+  </component>
+  <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="AmazonScrapper" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="AmazonScrapper" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="utils_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="AmazonScrapper" />
+      <working_directory value="$PROJECT_DIR$/tests" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <package value="AmazonScrapper" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/tests/utils_test.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Test.utils_test.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1358" height="271" key="GridCell.Tab.0.bottom" timestamp="1596931476519">
+      <screen x="0" y="23" width="3840" height="2057" />
+    </state>
+    <state width="1358" height="271" key="GridCell.Tab.0.bottom/0.23.3840.2057/-3840.23.3840.2137@0.23.3840.2057" timestamp="1596931476519" />
+    <state width="1358" height="271" key="GridCell.Tab.0.center" timestamp="1596931476518">
+      <screen x="0" y="23" width="3840" height="2057" />
+    </state>
+    <state width="1358" height="271" key="GridCell.Tab.0.center/0.23.3840.2057/-3840.23.3840.2137@0.23.3840.2057" timestamp="1596931476518" />
+    <state width="1358" height="271" key="GridCell.Tab.0.left" timestamp="1596931476517">
+      <screen x="0" y="23" width="3840" height="2057" />
+    </state>
+    <state width="1358" height="271" key="GridCell.Tab.0.left/0.23.3840.2057/-3840.23.3840.2137@0.23.3840.2057" timestamp="1596931476517" />
+    <state width="1358" height="271" key="GridCell.Tab.0.right" timestamp="1596931476518">
+      <screen x="0" y="23" width="3840" height="2057" />
+    </state>
+    <state width="1358" height="271" key="GridCell.Tab.0.right/0.23.3840.2057/-3840.23.3840.2137@0.23.3840.2057" timestamp="1596931476518" />
+  </component>
+</project>
