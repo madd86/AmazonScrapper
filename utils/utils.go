@@ -1,6 +1,15 @@
 package utils
 
-import "regexp"
+import (
+	"regexp"
+)
+
+func DerefString(s *string) string {
+	if s != nil {
+		return *s
+	}
+	return ""
+}
 
 func FormatPrice(price *string) {
 	r := regexp.MustCompile(`\$(\d+(\.\d+)?).*$`)
@@ -20,5 +29,13 @@ func FormatStars(stars *string) {
 		*stars = (*stars)[0:3]
 	} else {
 		*stars = "Unknown"
+	}
+}
+
+func FormatURL(url *string) {
+	if len(*url) > 0 {
+		*url = "https://www.amazon.com" + *url
+	} else {
+		*url = "Unknown"
 	}
 }

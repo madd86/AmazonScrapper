@@ -6,12 +6,21 @@ import (
 	"fmt"
 	"github.com/gocolly/colly"
 	"os"
+	"strings"
 )
+
+func deString(s *string) string {
+	if s != nil {
+		return *s
+	}
+	return ""
+}
 
 type product struct {
 	ProductName string `selector:"span.a-size-medium.a-color-base.a-text-normal"`
 	Stars       string `selector:"span.a-icon-alt"`
 	Price       string `selector:"span.a-price > span.a-offscreen"`
+	URL 		string `selector:"a[href].a-link-normal.a-text-normal" attr:"href"`
 }
 
 func main() {
@@ -34,10 +43,15 @@ func main() {
 				return
 			}
 
+			if strings.Contains(deString(&c.URL), "redirect") {
+				return
+			}
+
 			utils.FormatStars(&c.Stars)
 			utils.FormatPrice(&c.Price)
-
+			utils.FormatURL(&c.URL)
 			products = append(products, c)
+
 		})
 	})
 
